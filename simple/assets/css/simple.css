@@ -1,0 +1,73 @@
+body{
+	background-color: #eeeeee;
+	font-family: 'Open Sans', Sans Serif;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: url('font/OpenSans-Light.ttf') format("truetype");
+}
+
+.header-utama{
+	height: 40px;
+	position:relative;
+	background-color: rgba(40,57,101,.9);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	font-family: 'Open Sans';
+}
+
+.project-name{
+	font-size: 20px;
+	font-family: 'Open Sans';
+	padding-left: 7%;
+	padding-top: 5px;
+	padding-right: 7%;
+	color: #c8c8c8;
+	font-family: 'Open Sans';
+}
+
+.project-name:hover{
+	color: #bc0000;
+	font-family: 'Open Sans';
+}
+
+.logout{
+	float: right;
+	text-decoration: none;
+	color: #c8c8c8;
+	font-family: 'Open Sans';
+}
+
+.logout:hover{
+	text-decoration: none;
+	color: #1bb3e5;
+	font-family: 'Open Sans';
+}
+
+.main-content{
+	margin-top: 13px;
+	margin-left: 7%;
+	margin-right: 7%;
+	border: solid 1px #ddd;
+	height: 730px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: 'Open Sans';
+}
+
+.header-content{
+	height: 38px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-bottom: solid 1px #ddd;
+	font-family: 'Open Sans';
+}
+
+.content-view{
+	padding: 10px 20px 10px 20px;
+	width: 100%;
+	height: 670px;
+	overflow: auto;
+	font-family: 'Open Sans';
+}
